@@ -1,0 +1,35 @@
+.dice {
+    float:left;
+    width:32px;
+    background: blue;
+    border: 10px;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: chartreuse;
+}
+.jumbotron {
+    background-color: chocolate;
+}
+button {
+    padding: 15px;
+    margin: 20px;
+    color: chocolate;
+    font-size: 25px;
+}
+h2 {
+    font-style: oblique;
+    font-size: 27px;
+    color: chocolate;
+}
+h3 {
+    font-style: oblique;
+    font-size: 27px;
+    color: chocolate;
+}
