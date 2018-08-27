@@ -39,3 +39,9 @@ p {
     font-size: 28px;
     color: white;
 }
+h4 {
+    font-style: oblique;
+    font-size: 27px;
+    color:white;
+    text-align: center;  
+}
