@@ -20,7 +20,7 @@ The program adds scores of each round to total score if player clicks hold
     Output Example: if total score is 30 new total score becomes 70  
 
 ## Link to live site
-  
+  https://peet-pitz.github.io/Pig-Dice-Game/
 
 ## Technologies Used
 JavaScript
