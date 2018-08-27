@@ -53,48 +53,48 @@ var dice = {
       }
     });
   
-//     //Player 2
-//     var dice2 = 0;
-//     var summation2 = 0;
-//     var total2 = 0;
+    //Player 2
+    var dice2 = 0;
+    var summation2 = 0;
+    var total2 = 0;
   
-//     $("#roll2").click(function() {
-//       dice2 = dice.roll();
-//       if (dice2 === 1) {
-//         dice2 = 0;
-//         summation2 = 0;
-//         $("#hold2").attr("disabled", true);
-//         $("#roll2").attr("disabled", true);
+    $("#roll2").click(function() {
+      dice2 = dice.roll();
+      if (dice2 === 1) {
+        dice2 = 0;
+        summation2 = 0;
+        $("#hold2").attr("disabled", true);
+        $("#roll2").attr("disabled", true);
   
-//         $("#hold1").attr("disabled", false);
-//         $("#roll1").attr("disabled", false);
+        $("#hold1").attr("disabled", false);
+        $("#roll1").attr("disabled", false);
   
-//         alert("Dice has landed on a 1,turn goes to next player");
-//       }
-//       $("#dice2").text(dice2);
+        alert("Dice has landed on a 1,turn goes to next player");
+      }
+      $("#dice2").text(dice2);
   
-//       summation2 += dice2;
-//       $("#summation2").text(summation2);
-//     });
+      summation2 += dice2;
+      $("#summation2").text(summation2);
+    });
   
-//     $("#hold2").click(function() {
-//       total2 += summation2;
+    $("#hold2").click(function() {
+      total2 += summation2;
   
-//       $("#total2").text(total2);
-//       if (total2 >= 100) {
-//         alert("Player 1 Has Won!");
-//       } else {
-//         dice2 = 0;
-//         summation2 = 0;
-//         $("#dice2").text(dice2);
-//         $("#summation2").text(summation2);
+      $("#total2").text(total2);
+      if (total2 >= 100) {
+        alert("Player 1 Has Won!");
+      } else {
+        dice2 = 0;
+        summation2 = 0;
+        $("#dice2").text(dice2);
+        $("#summation2").text(summation2);
   
-//         $("#roll2").attr("disabled", true);
-//         $("#hold2").attr("disabled", true);
+        $("#roll2").attr("disabled", true);
+        $("#hold2").attr("disabled", true);
   
-//         $("#roll1").attr("disabled", false);
-//         $("#hold1").attr("disabled", false);
-//         alert("Pass to next player");
-//       }
-//     });
-//   });
+        $("#roll1").attr("disabled", false);
+        $("#hold1").attr("disabled", false);
+        alert("Pass to next player");
+      }
+    });
+  });
