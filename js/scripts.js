@@ -24,7 +24,7 @@ var dice = {
   
         $("#hold2").attr("disabled", false);
         $("#roll2").attr("disabled", false);
-        alert("Dice has landed on a 1,turn goes to next player");
+        alert("Sorry! you rolled a 1");
       }
       $("#dice1").text(dice1);
   
@@ -69,7 +69,7 @@ var dice = {
         $("#hold1").attr("disabled", false);
         $("#roll1").attr("disabled", false);
   
-        alert("Dice has landed on a 1,turn goes to next player");
+        alert("Sorry! You rolled a 1");
       }
       $("#dice2").text(dice2);
   

@@ -8,7 +8,10 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h2>player 1</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+    <h1>Player 1</h1>
     <p>Total Score:
       <span id="total1"></span>
     </p>
@@ -20,8 +23,10 @@
     </p>
     <button type ="submit" id="roll1">roll</button>
     <button type ="submit" id="hold1">hold</button>
+  </div>
+  <div class="col-md-6">
 
-    <h2>player 1</h2>
+    <h2>Player 2</h2>
     <p>Total Score:
       <span id="total2"></span>
     </p>
@@ -33,31 +38,8 @@
     </p>
     <button type ="submit" id="roll2">roll</button>
     <button type ="submit" id="hold2">hold</button>
-
-
-
-    <!-- <p></p>
-    <div class="jumbotron">
-      <h1>Pig Dice</h1>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Player 1</h2>
-          <div id="die1" class="dice">0</div>
-          <button onclick="rollDice()">Roll</button>
-          <button onclick="hold()">Hold</button>
-        </div>
-        <div class="col-md-6">
-          <h3>Player 2</h3>
-          <div id="die2" class="dice">0</div>
-          <button onclick="rollDice2()">Roll</button>
-          <button onclick="hold2()">Hold</button>
-        </div>
-      </div>
-    </div>
-    
-    
-    <h2 id="status" style="clear:left;"></h2> -->
+  </div>
+  </div>
+  </div>
   </body>
 </html>
